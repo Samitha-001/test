@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>test</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>pom</packaging>
   <name>test</name>
   <description>test</description>
@@ -16,6 +15,7 @@
     <connection>scm:git:https://github.com/Samitha-001/test</connection>
     <developerConnection>scm:git:https://github.com/Samitha-001/test</developerConnection>
     <url>https://github.com/Samitha-001/test</url>
+    <tag>test-1.0.0</tag>
   </scm>
   <distributionManagement>
     <repository>
@@ -33,10 +33,7 @@
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <version>3.0.0-M1</version>
-        <configuration>
-        <tagNameFormat>v@{project.version}</tagNameFormat>
-        <autoVersionSubmodules>true</autoVersionSubmodules>
-      </configuration>
+        <configuration />
       </plugin>
       <plugin>
         <artifactId>maven-deploy-plugin</artifactId>
