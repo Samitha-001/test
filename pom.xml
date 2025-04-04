@@ -13,9 +13,9 @@
     <module>testCompositeExporter</module>
   </modules>
   <scm>
-    <connection>scm:git:https://github.com/username/repository.git</connection>
-    <developerConnection>scm:git:https://github.com/username/repository.git</developerConnection>
-    <url>https://github.com/username/repository.git</url>
+    <connection>scm:git:https://github.com/Samitha-001/test</connection>
+    <developerConnection>scm:git:https://github.com/Samitha-001/test</developerConnection>
+    <url>https://github.com/Samitha-001/test</url>
   </scm>
   <distributionManagement>
     <repository>
